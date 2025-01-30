@@ -12,6 +12,7 @@ target/
 *.iml
 *.ipr
 .idea/*
+Week1/.idea/*
 ### Eclipse ###
 .apt_generated
 .classpath
