@@ -55,4 +55,23 @@ class CalculatorTest {
 
         assertEquals(actual, expected);
     }
+
+    @Test
+    @DisplayName("Overload")
+    void testAddString() {
+        int actual = calculator.add("1,2,3");
+        int expected = 6;
+
+        assertEquals(actual, expected);
+    }
+
+    @Test
+    @DisplayName("Overload")
+    void testAddArray() {
+        int actual = calculator.add(new int[]{1,2,3});
+        int expected = 6;
+
+        assertEquals(actual, expected);
+    }
+
 }
